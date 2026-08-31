@@ -71,7 +71,7 @@ servicios:
         - item: "Hoja de ruta priorizada: qué construir primero, qué parar y qué vigilar."
         - item: "Asesoramiento sobre decisiones técnicas y su impacto en el negocio."
       garantia: "si no sales de estas semanas con una hoja de ruta clara y accionable, no pagas."
-      precio: "3500 € - Precio cerrado, sin sorpresas."
+      precio: "**3500 €** - Precio cerrado, sin sorpresas."
       cta_label: "Ver qué incluye"
       cta_url: "/servicios/#diagnostico"
       destacado: true
@@ -86,7 +86,7 @@ servicios:
         - item: "Informe mensual ejecutivo para ti, sin jerga técnica."
         - item: "Asesoramiento continuo sobre decisiones técnicas que impactan al negocio"
       garantia: ""
-      precio: "Desde 3000 € - Cuota mensual según alcance del proyecto."
+      precio: "**Desde 3000 €** - Cuota mensual según alcance del proyecto."
       cta_label: "Ver cómo funciona"
       cta_url: "/servicios/#retainer"
       destacado: false
