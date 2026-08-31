@@ -15,7 +15,7 @@ contacto:
   telefono: "619802580"
   linkedin: "https://www.linkedin.com/in/carlos-jimenez-delgado/"
   # Enlace a Calendly / Cal.com / TidyCal. Si lo dejas vacío no se muestra.
-  agenda_url: ""
+  agenda_url: "https://outlook.office.com/bookwithme/user/548146b897774b0d8681a6302680c9f4@kibarai.tech/meetingtype/8dCeMNFN2kmE54V-__8Qow2?anonymous&ismsaljsauthenabled&ep=mLinkFromTile"
   # Endpoint de Formspree (https://formspree.io) para recibir el formulario por
   # email. Si lo dejas vacío, el formulario se sustituye por un enlace de correo.
   formulario_endpoint: ""
