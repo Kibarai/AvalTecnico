@@ -12,8 +12,8 @@ cta:
 
 contacto:
   email: "hola@avaltecnico.com"
-  telefono: ""
-  linkedin: "https://www.linkedin.com/in/carlos-jimenez/"
+  telefono: "619802580"
+  linkedin: "https://www.linkedin.com/in/carlos-jimenez-delgado/"
   # Enlace a Calendly / Cal.com / TidyCal. Si lo dejas vacío no se muestra.
   agenda_url: ""
   # Endpoint de Formspree (https://formspree.io) para recibir el formulario por
@@ -49,4 +49,4 @@ cta_articulos:
   text: "Una llamada de 30 minutos para entender en qué punto estás y si el diagnóstico te encaja. Sin compromiso y sin lenguaje técnico."
   button_label: "Reservar diagnóstico"
   button_url: "/contacto/"
-  note: "Respondo personalmente en menos de 24 h laborables."
+  note: ""

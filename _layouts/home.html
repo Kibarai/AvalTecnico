@@ -115,7 +115,7 @@ layout: default
         <p class="guarantee"><span class="guarantee__icon" aria-hidden="true">◈</span><span><strong>Garantía:</strong> {{ serv.garantia }}</span></p>
         {%- endif %}
         <div class="service__footer">
-          {%- if serv.precio and serv.precio != "" %}<p class="service__price">{{ serv.precio }}</p>{% endif %}
+          {%- if serv.precio and serv.precio != "" %}<p class="service__price">{{ serv.precio | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>{% endif %}
           <a class="link-arrow" href="{{ serv.cta_url | default: '/servicios/' | relative_url }}">{{ serv.cta_label | default: "Ver detalle" }}</a>
         </div>
       </article>

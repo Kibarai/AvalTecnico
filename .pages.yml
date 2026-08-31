@@ -112,7 +112,7 @@ content:
                 fields:
                   - { name: item, label: Punto, type: string }
               - { name: garantia, label: "Garantía (déjalo vacío si el servicio no la tiene)", type: text }
-              - { name: precio, label: Nota de precio, type: string }
+              - { name: precio, label: "Precio (con **asteriscos** alrededor de la cifra se resalta en violeta)", type: string }
               - { name: cta_label, label: Enlace — texto, type: string }
               - { name: cta_url, label: Enlace — destino, type: string }
               - { name: destacado, label: Destacar con borde dorado, type: boolean }
