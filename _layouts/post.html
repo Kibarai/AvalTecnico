@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article>
+  <section class="page-header">
+    <div class="container narrow">
+      <p class="eyebrow">{% include fecha.html date=page.date %}</p>
+      <h1>{{ page.title }}</h1>
+      {%- if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="prose narrow">
+        {{ content }}
+      </div>
+      <p class="narrow mt-3"><a class="link-arrow" href="{{ '/blog/' | relative_url }}">Volver a todos los artículos</a></p>
+    </div>
+  </section>
+</article>
+
+{% include cta-final.html cta=site.data.site.cta_articulos %}

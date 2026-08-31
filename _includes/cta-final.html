@@ -1,0 +1,17 @@
+{%- assign cta = include.cta %}
+<section class="section section--ink cta-band" id="hablamos">
+  <div class="container narrow">
+    <p class="eyebrow">{{ cta.eyebrow | default: "Siguiente paso" }}</p>
+    <h2>{{ cta.title }}</h2>
+    <p class="lede">{{ cta.text }}</p>
+    <div class="btn-row mt-2" style="justify-content:center">
+      <a class="btn btn--light" href="{{ cta.button_url | default: site.data.site.cta.url | relative_url }}">{{ cta.button_label | default: site.data.site.cta.label }}</a>
+      {%- if cta.secondary_label and cta.secondary_label != "" %}
+      <a class="btn btn--outline-light" href="{{ cta.secondary_url | relative_url }}">{{ cta.secondary_label }}</a>
+      {%- endif %}
+    </div>
+    {%- if cta.note and cta.note != "" %}
+    <p class="cta-band__note muted">{{ cta.note }}</p>
+    {%- endif %}
+  </div>
+</section>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="Espacio reservado para una imagen">
+  <style>
+    .ph-bg  { fill: #11161d; }
+    .ph-txt { fill: #c2ccd6; }
+    .ph-sub { fill: #8b98a5; }
+  </style>
+  <rect class="ph-bg" width="900" height="900"/>
+  <rect x="24" y="24" width="852" height="852" fill="none" stroke="#5b4bff" stroke-opacity=".45" stroke-width="2" stroke-dasharray="10 10" rx="10"/>
+  <g fill="none" stroke="#5b4bff" stroke-opacity=".7" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" transform="translate(0.0,-130.0)">
+    <path d="M330 350h40l26-34h108l26 34h40a26 26 0 0 1 26 26v168a26 26 0 0 1-26 26H330a26 26 0 0 1-26-26V376a26 26 0 0 1 26-26Z"/>
+    <circle cx="450" cy="460" r="56"/>
+  </g>
+  <text class="ph-txt" x="450.0" y="600.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="34">Tu fotografía aquí</text>
+  <text class="ph-sub" x="450.0" y="646.0" text-anchor="middle" font-family="Menlo, monospace" font-size="22">Formato cuadrado · 1:1 · mín. 900×900 px</text>
+</svg>

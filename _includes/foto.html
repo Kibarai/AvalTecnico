@@ -1,0 +1,13 @@
+{%- comment -%}
+  Muestra una fotografía. Si todavía no se ha subido ninguna desde el CMS,
+  se usa un placeholder para que el diseño nunca se rompa.
+  Parámetros: src, alt, ratio ("3-4" por defecto | "1-1"), loading
+{%- endcomment -%}
+{%- assign ratio = include.ratio | default: "3-4" -%}
+{%- assign ph = "/assets/img/placeholder-" | append: ratio | append: ".svg" -%}
+{%- assign alt = include.alt | default: "Carlos Jiménez, Aval Técnico" -%}
+{%- if include.src and include.src != "" -%}
+<img src="{{ include.src | relative_url }}" alt="{{ alt | escape }}" loading="{{ include.loading | default: 'lazy' }}" decoding="async">
+{%- else -%}
+<img src="{{ ph | relative_url }}" alt="Espacio reservado para una fotografía de Carlos Jiménez" loading="{{ include.loading | default: 'lazy' }}" decoding="async">
+{%- endif -%}

@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b0f14">
+<meta name="color-scheme" content="dark">
+{% seo %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+{%- if site.data.site.analytics.plausible_domain and site.data.site.analytics.plausible_domain != "" %}
+<script defer data-domain="{{ site.data.site.analytics.plausible_domain }}" src="https://plausible.io/js/script.js"></script>
+{%- endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Aval Técnico — {{ site.data.site.marca.nombre }}",
+  "url": {{ site.url | jsonify }},
+  "description": {{ site.description | strip_newlines | jsonify }},
+  "areaServed": "ES",
+  "provider": {
+    "@type": "Person",
+    "name": {{ site.data.site.marca.nombre | jsonify }},
+    "jobTitle": "Aval Técnico",
+    "email": {{ site.data.site.contacto.email | jsonify }}
+  }
+}
+</script>

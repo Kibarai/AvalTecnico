@@ -1,0 +1,22 @@
+<header class="site-header" id="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand__mark">{% include logo.html %}</span>
+      <span class="brand__text">
+        <span class="brand__name">{{ site.data.site.marca.nombre }}</span>
+        <span class="brand__sub">{{ site.data.site.marca.servicio }}</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-principal">
+      <span aria-hidden="true">☰</span> Menú
+    </button>
+
+    <nav class="nav" id="nav-principal" aria-label="Navegación principal">
+      {%- for item in site.data.site.navegacion %}
+      <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {%- endfor %}
+      <a class="btn btn--primary" href="{{ site.data.site.cta.url | relative_url }}">{{ site.data.site.cta.label }}</a>
+    </nav>
+  </div>
+</header>

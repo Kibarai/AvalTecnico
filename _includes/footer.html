@@ -1,0 +1,50 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="brand__mark">{% include logo.html %}</span>
+          <span class="brand__text">
+            <span class="brand__name">{{ site.data.site.marca.nombre }}</span>
+            <span class="brand__sub">{{ site.data.site.marca.servicio }}</span>
+          </span>
+        </a>
+        <p class="small mt-2" style="max-width:22rem">{{ site.data.site.footer.claim }}</p>
+      </div>
+
+      <div>
+        <p class="footer__title">Navegación</p>
+        <ul class="footer__list">
+          {%- for item in site.data.site.navegacion %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.label }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer__title">Contacto</p>
+        <ul class="footer__list">
+          <li><a href="mailto:{{ site.data.site.contacto.email }}">{{ site.data.site.contacto.email }}</a></li>
+          {%- if site.data.site.contacto.telefono and site.data.site.contacto.telefono != "" %}
+          <li><a href="tel:{{ site.data.site.contacto.telefono | remove: ' ' }}">{{ site.data.site.contacto.telefono }}</a></li>
+          {%- endif %}
+          {%- if site.data.site.contacto.linkedin and site.data.site.contacto.linkedin != "" %}
+          <li><a href="{{ site.data.site.contacto.linkedin }}" rel="me noopener" target="_blank">LinkedIn</a></li>
+          {%- endif %}
+          {%- if site.data.site.contacto.agenda_url and site.data.site.contacto.agenda_url != "" %}
+          <li><a href="{{ site.data.site.contacto.agenda_url }}" rel="noopener" target="_blank">Agendar una llamada</a></li>
+          {%- endif %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© {{ site.time | date: "%Y" }} {{ site.data.site.marca.nombre }} · {{ site.data.site.marca.servicio }}</span>
+      <span>
+        {%- for item in site.data.site.footer.legales %}
+        <a href="{{ item.url | relative_url }}">{{ item.label }}</a>{% unless forloop.last %} · {% endunless %}
+        {%- endfor %}
+      </span>
+    </div>
+  </div>
+</footer>

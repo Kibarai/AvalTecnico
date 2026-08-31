@@ -1,0 +1,238 @@
+---
+layout: default
+---
+
+{%- assign h = page.hero %}
+<section class="hero">
+  <div class="container hero__grid">
+    <div>
+      <p class="eyebrow">{{ h.eyebrow }}</p>
+      <h1>{{ h.title }}{% if h.title_accent and h.title_accent != "" %} <span class="hero__claim">{{ h.title_accent }}</span>{% endif %}</h1>
+      <p class="lede">{{ h.subtitle }}</p>
+      <div class="btn-row hero__actions">
+        <a class="btn btn--primary" href="{{ h.cta_url | default: site.data.site.cta.url | relative_url }}">{{ h.cta_label | default: site.data.site.cta.label }}</a>
+        {%- if h.cta2_label and h.cta2_label != "" %}
+        <a class="btn btn--ghost" href="{{ h.cta2_url | relative_url }}">{{ h.cta2_label }}</a>
+        {%- endif %}
+      </div>
+      {%- if h.note and h.note != "" %}<p class="hero__note">{{ h.note }}</p>{% endif %}
+    </div>
+    <div class="portrait">
+      {% include foto.html src=h.foto alt=h.foto_alt ratio="3-4" loading="eager" %}
+      {%- if h.sello and h.sello != "" %}
+      <span class="portrait__seal" aria-hidden="true">{{ h.sello }}</span>
+      {%- endif %}
+    </div>
+  </div>
+</section>
+
+{%- if page.credenciales.items and page.credenciales.items.size > 0 %}
+<section class="credentials">
+  <div class="container credentials__inner">
+    <span class="credentials__label">{{ page.credenciales.label }}</span>
+    <ul class="credentials__list">
+      {%- for item in page.credenciales.items %}
+      <li>{{ item.nombre }}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+{%- endif %}
+
+{%- assign p = page.problema %}
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">{{ p.eyebrow }}</p>
+      <h2>{{ p.title }}</h2>
+      <p class="lede">{{ p.intro }}</p>
+    </div>
+    <div class="grid grid--2">
+      {%- for item in p.items %}
+      <article class="card pain-card">
+        <h3>{{ item.title }}</h3>
+        <p class="muted">{{ item.text }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+    {%- if p.quote and p.quote != "" %}
+    <blockquote class="quote narrow mt-3" style="margin-inline:auto">
+      {{ p.quote }}
+      {%- if p.quote_source and p.quote_source != "" %}<cite>{{ p.quote_source }}</cite>{% endif %}
+    </blockquote>
+    {%- endif %}
+  </div>
+</section>
+
+{%- assign q = page.propuesta %}
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">{{ q.eyebrow }}</p>
+      <h2>{{ q.title }}</h2>
+      <p class="lede">{{ q.intro }}</p>
+    </div>
+    <div class="grid grid--3">
+      {%- for pil in q.pilares %}
+      <article class="card">
+        <span class="card__num" aria-hidden="true">{{ forloop.index }}</span>
+        <h3>{{ pil.title }}</h3>
+        <p class="muted">{{ pil.text }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+    {%- if q.promesa and q.promesa != "" %}
+    <div class="narrow center mt-3">
+      <p class="lede"><strong>{{ q.promesa }}</strong></p>
+    </div>
+    {%- endif %}
+  </div>
+</section>
+
+{%- assign s = page.servicios %}
+<section class="section" id="servicios">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">{{ s.eyebrow }}</p>
+      <h2>{{ s.title }}</h2>
+      <p class="lede">{{ s.intro }}</p>
+    </div>
+    <div class="grid grid--2">
+      {%- for serv in s.items %}
+      <article class="service{% if serv.destacado %} service--highlight{% endif %}">
+        <span class="service__tag">{{ serv.tag }}</span>
+        <h3>{{ serv.title }}</h3>
+        {%- if serv.duracion and serv.duracion != "" %}<p class="service__meta">{{ serv.duracion }}</p>{% endif %}
+        <p class="muted">{{ serv.text }}</p>
+        {%- if serv.incluye %}
+        <ul class="service__list">
+          {%- for punto in serv.incluye %}
+          <li>{{ punto.item }}</li>
+          {%- endfor %}
+        </ul>
+        {%- endif %}
+        {%- if serv.garantia and serv.garantia != "" %}
+        <p class="guarantee"><span class="guarantee__icon" aria-hidden="true">◈</span><span><strong>Garantía:</strong> {{ serv.garantia }}</span></p>
+        {%- endif %}
+        <div class="service__footer">
+          {%- if serv.precio and serv.precio != "" %}<p class="service__price">{{ serv.precio }}</p>{% endif %}
+          <a class="link-arrow" href="{{ serv.cta_url | default: '/servicios/' | relative_url }}">{{ serv.cta_label | default: "Ver detalle" }}</a>
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{%- assign pr = page.proceso %}
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">{{ pr.eyebrow }}</p>
+      <h2>{{ pr.title }}</h2>
+      <p class="lede">{{ pr.intro }}</p>
+    </div>
+    <div class="grid grid--4">
+      {%- for paso in pr.pasos %}
+      <article class="card">
+        <span class="card__num" aria-hidden="true">{{ forloop.index }}</span>
+        <h3>{{ paso.title }}</h3>
+        <p class="muted small">{{ paso.text }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{%- assign i = page.independencia %}
+<section class="section section--ink">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">{{ i.eyebrow }}</p>
+      <h2>{{ i.title }}</h2>
+      <p class="lede">{{ i.text }}</p>
+    </div>
+    <div>
+      <ul class="checklist">
+        {%- for b in i.bullets %}
+        <li>{{ b.item }}</li>
+        {%- endfor %}
+      </ul>
+      {%- if i.cta_label and i.cta_label != "" %}
+      <p class="mt-2"><a class="btn btn--outline-light" href="{{ i.cta_url | relative_url }}">{{ i.cta_label }}</a></p>
+      {%- endif %}
+    </div>
+  </div>
+</section>
+
+{%- assign so = page.sobre %}
+<section class="section">
+  <div class="container split">
+    <div class="portrait portrait--square">
+      {% include foto.html src=so.foto alt=so.foto_alt ratio="1-1" %}
+    </div>
+    <div>
+      <p class="eyebrow">{{ so.eyebrow }}</p>
+      <h2>{{ so.title }}</h2>
+      <div class="stack">
+        {%- for parrafo in so.parrafos %}
+        <p{% unless forloop.first %} class="muted"{% endunless %}>{{ parrafo.texto }}</p>
+        {%- endfor %}
+      </div>
+      {%- if so.hitos %}
+      <ul class="checklist">
+        {%- for hito in so.hitos %}
+        <li>{{ hito.item }}</li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+      {%- if so.cta_label and so.cta_label != "" %}
+      <p class="mt-2"><a class="link-arrow" href="{{ so.cta_url | relative_url }}">{{ so.cta_label }}</a></p>
+      {%- endif %}
+    </div>
+  </div>
+</section>
+
+{%- assign f = page.faq %}
+{%- if f.items and f.items.size > 0 %}
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">{{ f.eyebrow }}</p>
+      <h2>{{ f.title }}</h2>
+    </div>
+    <div class="faq narrow" style="margin-inline:0">
+      {%- for item in f.items %}
+      <details{% if forloop.first %} open{% endif %}>
+        <summary>{{ item.pregunta }}</summary>
+        <div>{{ item.respuesta | markdownify }}</div>
+      </details>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- assign posts = site.posts | slice: 0, 3 %}
+{%- if posts.size > 0 and page.mostrar_articulos %}
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Ideas</p>
+      <h2>Últimos artículos</h2>
+    </div>
+    <ul class="post-list narrow" style="margin-inline:0">
+      {%- for post in posts %}
+      <li class="post-item">
+        <p class="post-meta">{% include fecha.html date=post.date %}</p>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="muted">{{ post.description | default: post.excerpt | strip_html | truncate: 160 }}</p>
+      </li>
+      {%- endfor %}
+    </ul>
+    <p class="mt-2"><a class="link-arrow" href="{{ '/blog/' | relative_url }}">Ver todos los artículos</a></p>
+  </div>
+</section>
+{%- endif %}
+
+{% include cta-final.html cta=page.cta_final %}

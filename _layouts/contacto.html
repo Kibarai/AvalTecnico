@@ -1,0 +1,81 @@
+---
+layout: default
+---
+<section class="page-header">
+  <div class="container narrow">
+    {%- if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {%- if page.intro %}<p class="lede">{{ page.intro }}</p>{% endif %}
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container contact-grid">
+    <div>
+      <div class="prose">{{ content }}</div>
+
+      <dl class="contact-list mt-3">
+        <div>
+          <dt>Correo</dt>
+          <dd><a href="mailto:{{ site.data.site.contacto.email }}">{{ site.data.site.contacto.email }}</a></dd>
+        </div>
+        {%- if site.data.site.contacto.telefono and site.data.site.contacto.telefono != "" %}
+        <div>
+          <dt>Teléfono</dt>
+          <dd><a href="tel:{{ site.data.site.contacto.telefono | remove: ' ' }}">{{ site.data.site.contacto.telefono }}</a></dd>
+        </div>
+        {%- endif %}
+        {%- if site.data.site.contacto.linkedin and site.data.site.contacto.linkedin != "" %}
+        <div>
+          <dt>LinkedIn</dt>
+          <dd><a href="{{ site.data.site.contacto.linkedin }}" rel="me noopener" target="_blank">Perfil de {{ site.data.site.marca.nombre }}</a></dd>
+        </div>
+        {%- endif %}
+        {%- if site.data.site.contacto.agenda_url and site.data.site.contacto.agenda_url != "" %}
+        <div>
+          <dt>Agenda</dt>
+          <dd><a href="{{ site.data.site.contacto.agenda_url }}" rel="noopener" target="_blank">Reservar 30 minutos</a></dd>
+        </div>
+        {%- endif %}
+      </dl>
+    </div>
+
+    <div class="card">
+      <h2 style="font-size:var(--step-h3)">{{ page.formulario.title | default: "Cuéntame tu caso" }}</h2>
+      <p class="muted small">{{ page.formulario.intro }}</p>
+
+      {%- assign endpoint = site.data.site.contacto.formulario_endpoint %}
+      {%- if endpoint and endpoint != "" %}
+      <form action="{{ endpoint }}" method="POST" class="mt-2">
+        <div class="field">
+          <label for="nombre">Nombre y empresa</label>
+          <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="situacion">¿En qué punto estás?</label>
+          <select id="situacion" name="situacion">
+            <option>Tengo un equipo interno de desarrollo</option>
+            <option>Trabajo con una agencia o freelance</option>
+            <option>El proyecto aún no ha empezado</option>
+            <option>Otra situación</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="mensaje">Cuéntame brevemente qué te preocupa</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <p class="small muted">Al enviar aceptas la <a href="{{ '/privacidad/' | relative_url }}">política de privacidad</a>. Solo usaré tus datos para responderte.</p>
+        <button class="btn btn--primary" type="submit" style="width:100%">{{ page.formulario.boton | default: "Enviar" }}</button>
+      </form>
+      {%- else %}
+      <p class="mt-2">Escríbeme directamente y te respondo personalmente en menos de 24 h laborables:</p>
+      <p class="mt-2"><a class="btn btn--primary" href="mailto:{{ site.data.site.contacto.email }}?subject=Aval%20T%C3%A9cnico%20%E2%80%94%20consulta" style="width:100%">{{ site.data.site.contacto.email }}</a></p>
+      <p class="small muted mt-2">Cuéntame en dos líneas en qué punto está tu proyecto, si tienes equipo interno o proveedor externo, y qué te preocupa.</p>
+      {%- endif %}
+    </div>
+  </div>
+</section>

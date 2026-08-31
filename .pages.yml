@@ -1,0 +1,382 @@
+# ---------------------------------------------------------------------------
+# Pages CMS — https://pagescms.org
+# Panel de edición de contenidos para avaltecnico.com.
+# Todo lo que aparece aquí se puede editar desde app.pagescms.org sin tocar código.
+# ---------------------------------------------------------------------------
+
+media:
+  input: assets/img
+  output: /assets/img
+  extensions: [jpg, jpeg, png, webp, avif, svg, gif]
+
+content:
+  # -------------------------------------------------------------------------
+  - name: inicio
+    label: Página de inicio
+    type: file
+    path: index.md
+    fields:
+      - name: title
+        label: Título (pestaña del navegador y Google)
+        type: string
+      - name: description
+        label: Descripción para buscadores
+        type: text
+      - name: mostrar_articulos
+        label: Mostrar los últimos artículos en la home
+        type: boolean
+        default: true
+
+      - name: hero
+        label: Portada
+        type: object
+        fields:
+          - { name: eyebrow, label: Antetítulo, type: string }
+          - { name: title, label: Titular (primera parte), type: text }
+          - { name: title_accent, label: Titular (parte destacada en cursiva), type: text }
+          - { name: subtitle, label: Subtítulo, type: text }
+          - { name: cta_label, label: Botón principal — texto, type: string }
+          - { name: cta_url, label: Botón principal — enlace, type: string }
+          - { name: cta2_label, label: Botón secundario — texto, type: string }
+          - { name: cta2_url, label: Botón secundario — enlace, type: string }
+          - { name: note, label: Nota bajo los botones, type: string }
+          - { name: foto, label: "Fotografía vertical (3:4, mín. 900×1200 px)", type: image }
+          - { name: foto_alt, label: Texto alternativo de la foto, type: string }
+          - { name: sello, label: Texto del sello circular, type: string }
+
+      - name: credenciales
+        label: Barra de credenciales
+        type: object
+        fields:
+          - { name: label, label: Texto de la izquierda, type: string }
+          - name: items
+            label: Sectores / credenciales
+            type: object
+            list: true
+            fields:
+              - { name: nombre, label: Nombre, type: string }
+
+      - name: problema
+        label: "Sección 1 — El problema"
+        type: object
+        fields:
+          - { name: eyebrow, label: Antetítulo, type: string }
+          - { name: title, label: Título, type: string }
+          - { name: intro, label: Entradilla, type: text }
+          - name: items
+            label: Puntos de dolor
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Título, type: string }
+              - { name: text, label: Texto, type: text }
+          - { name: quote, label: Frase destacada, type: text }
+          - { name: quote_source, label: Pie de la frase, type: string }
+
+      - name: propuesta
+        label: "Sección 2 — Qué es el Aval Técnico"
+        type: object
+        fields:
+          - { name: eyebrow, label: Antetítulo, type: string }
+          - { name: title, label: Título, type: string }
+          - { name: intro, label: Entradilla, type: text }
+          - name: pilares
+            label: Pilares
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Título, type: string }
+              - { name: text, label: Texto, type: text }
+          - { name: promesa, label: Frase de promesa honesta, type: text }
+
+      - name: servicios
+        label: "Sección 3 — Servicios"
+        type: object
+        fields:
+          - { name: eyebrow, label: Antetítulo, type: string }
+          - { name: title, label: Título, type: string }
+          - { name: intro, label: Entradilla, type: text }
+          - name: items
+            label: Servicios
+            type: object
+            list: true
+            fields:
+              - { name: tag, label: Etiqueta superior, type: string }
+              - { name: title, label: Nombre del servicio, type: string }
+              - { name: duracion, label: Duración / formato, type: string }
+              - { name: text, label: Descripción, type: text }
+              - name: incluye
+                label: Qué incluye
+                type: object
+                list: true
+                fields:
+                  - { name: item, label: Punto, type: string }
+              - { name: garantia, label: "Garantía (déjalo vacío si el servicio no la tiene)", type: text }
+              - { name: precio, label: Nota de precio, type: string }
+              - { name: cta_label, label: Enlace — texto, type: string }
+              - { name: cta_url, label: Enlace — destino, type: string }
+              - { name: destacado, label: Destacar con borde dorado, type: boolean }
+
+      - name: proceso
+        label: "Sección 4 — Proceso"
+        type: object
+        fields:
+          - { name: eyebrow, label: Antetítulo, type: string }
+          - { name: title, label: Título, type: string }
+          - { name: intro, label: Entradilla, type: text }
+          - name: pasos
+            label: Pasos
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Título, type: string }
+              - { name: text, label: Texto, type: text }
+
+      - name: independencia
+        label: "Sección 5 — Independencia"
+        type: object
+        fields:
+          - { name: eyebrow, label: Antetítulo, type: string }
+          - { name: title, label: Título, type: string }
+          - { name: text, label: Texto, type: text }
+          - name: bullets
+            label: Puntos
+            type: object
+            list: true
+            fields:
+              - { name: item, label: Punto, type: string }
+          - { name: cta_label, label: Botón — texto, type: string }
+          - { name: cta_url, label: Botón — enlace, type: string }
+
+      - name: sobre
+        label: "Sección 6 — Sobre mí"
+        type: object
+        fields:
+          - { name: eyebrow, label: Antetítulo, type: string }
+          - { name: title, label: Título, type: string }
+          - { name: foto, label: "Fotografía cuadrada (1:1, mín. 900×900 px)", type: image }
+          - { name: foto_alt, label: Texto alternativo de la foto, type: string }
+          - name: parrafos
+            label: Párrafos
+            type: object
+            list: true
+            fields:
+              - { name: texto, label: Párrafo, type: text }
+          - name: hitos
+            label: Hitos de trayectoria
+            type: object
+            list: true
+            fields:
+              - { name: item, label: Hito, type: string }
+          - { name: cta_label, label: Enlace — texto, type: string }
+          - { name: cta_url, label: Enlace — destino, type: string }
+
+      - name: faq
+        label: "Sección 7 — Preguntas frecuentes"
+        type: object
+        fields:
+          - { name: eyebrow, label: Antetítulo, type: string }
+          - { name: title, label: Título, type: string }
+          - name: items
+            label: Preguntas
+            type: object
+            list: true
+            fields:
+              - { name: pregunta, label: Pregunta, type: string }
+              - { name: respuesta, label: Respuesta, type: text }
+
+      - name: cta_final
+        label: "Sección 8 — Llamada a la acción final"
+        type: object
+        fields:
+          - { name: eyebrow, label: Antetítulo, type: string }
+          - { name: title, label: Título, type: string }
+          - { name: text, label: Texto, type: text }
+          - { name: button_label, label: Botón principal — texto, type: string }
+          - { name: button_url, label: Botón principal — enlace, type: string }
+          - { name: secondary_label, label: Botón secundario — texto, type: string }
+          - { name: secondary_url, label: Botón secundario — enlace, type: string }
+          - { name: note, label: Nota final, type: string }
+
+  # -------------------------------------------------------------------------
+  - name: servicios
+    label: Página · Servicios
+    type: file
+    path: servicios.md
+    fields:
+      - { name: title, label: Título, type: string }
+      - { name: eyebrow, label: Antetítulo, type: string }
+      - { name: intro, label: Entradilla, type: text }
+      - { name: description, label: Descripción para buscadores, type: text }
+      - name: cta_final
+        label: Llamada a la acción final
+        type: object
+        fields:
+          - { name: eyebrow, label: Antetítulo, type: string }
+          - { name: title, label: Título, type: string }
+          - { name: text, label: Texto, type: text }
+          - { name: button_label, label: Botón — texto, type: string }
+          - { name: button_url, label: Botón — enlace, type: string }
+          - { name: note, label: Nota, type: string }
+      - { name: body, label: Contenido de la página, type: rich-text }
+
+  # -------------------------------------------------------------------------
+  - name: sobre_mi
+    label: Página · Sobre mí
+    type: file
+    path: sobre-mi.md
+    fields:
+      - { name: title, label: Título, type: string }
+      - { name: eyebrow, label: Antetítulo, type: string }
+      - { name: intro, label: Entradilla, type: text }
+      - { name: description, label: Descripción para buscadores, type: text }
+      - { name: foto, label: "Fotografía horizontal (16:9, mín. 1600×900 px)", type: image }
+      - { name: foto_alt, label: Texto alternativo de la foto, type: string }
+      - name: cta_final
+        label: Llamada a la acción final
+        type: object
+        fields:
+          - { name: eyebrow, label: Antetítulo, type: string }
+          - { name: title, label: Título, type: string }
+          - { name: text, label: Texto, type: text }
+          - { name: button_label, label: Botón — texto, type: string }
+          - { name: button_url, label: Botón — enlace, type: string }
+          - { name: note, label: Nota, type: string }
+      - { name: body, label: Contenido de la página, type: rich-text }
+
+  # -------------------------------------------------------------------------
+  - name: independencia
+    label: Página · Independencia
+    type: file
+    path: independencia.md
+    fields:
+      - { name: title, label: Título, type: string }
+      - { name: eyebrow, label: Antetítulo, type: string }
+      - { name: intro, label: Entradilla, type: text }
+      - { name: description, label: Descripción para buscadores, type: text }
+      - name: cta_final
+        label: Llamada a la acción final
+        type: object
+        fields:
+          - { name: eyebrow, label: Antetítulo, type: string }
+          - { name: title, label: Título, type: string }
+          - { name: text, label: Texto, type: text }
+          - { name: button_label, label: Botón — texto, type: string }
+          - { name: button_url, label: Botón — enlace, type: string }
+          - { name: note, label: Nota, type: string }
+      - { name: body, label: Contenido de la página, type: rich-text }
+
+  # -------------------------------------------------------------------------
+  - name: contacto
+    label: Página · Contacto
+    type: file
+    path: contacto.md
+    fields:
+      - { name: title, label: Título, type: string }
+      - { name: eyebrow, label: Antetítulo, type: string }
+      - { name: intro, label: Entradilla, type: text }
+      - { name: description, label: Descripción para buscadores, type: text }
+      - name: formulario
+        label: Formulario
+        type: object
+        fields:
+          - { name: title, label: Título del formulario, type: string }
+          - { name: intro, label: Texto de apoyo, type: string }
+          - { name: boton, label: Texto del botón, type: string }
+      - { name: body, label: Contenido de la columna izquierda, type: rich-text }
+
+  # -------------------------------------------------------------------------
+  - name: articulos
+    label: Artículos
+    type: collection
+    path: _posts
+    filename: "{year}-{month}-{day}-{fields.title}.md"
+    view:
+      fields: [title, date]
+    fields:
+      - { name: title, label: Título, type: string }
+      - { name: date, label: Fecha de publicación, type: date }
+      - { name: description, label: Resumen (listados y buscadores), type: text }
+      - name: categories
+        label: Categorías
+        type: string
+        list: true
+      - { name: image, label: Imagen destacada (opcional), type: image }
+      - { name: body, label: Artículo, type: rich-text }
+
+  # -------------------------------------------------------------------------
+  - name: legales
+    label: Páginas legales
+    type: collection
+    path: legal
+    filename: "{fields.title}.md"
+    view:
+      fields: [title]
+    fields:
+      - { name: title, label: Título, type: string }
+      - { name: eyebrow, label: Antetítulo, type: string }
+      - { name: intro, label: Entradilla, type: text }
+      - { name: body, label: Contenido, type: rich-text }
+
+  # -------------------------------------------------------------------------
+  - name: ajustes
+    label: Ajustes del sitio
+    type: file
+    path: _data/site.yml
+    format: yaml
+    fields:
+      - name: marca
+        label: Marca
+        type: object
+        fields:
+          - { name: nombre, label: Nombre, type: string }
+          - { name: servicio, label: Nombre del servicio, type: string }
+      - name: cta
+        label: Botón principal del menú
+        type: object
+        fields:
+          - { name: label, label: Texto, type: string }
+          - { name: url, label: Enlace, type: string }
+      - name: contacto
+        label: Datos de contacto
+        type: object
+        fields:
+          - { name: email, label: Correo electrónico, type: string }
+          - { name: telefono, label: Teléfono (opcional), type: string }
+          - { name: linkedin, label: URL de LinkedIn, type: string }
+          - { name: agenda_url, label: "URL de agenda (Calendly, Cal.com…)", type: string }
+          - { name: formulario_endpoint, label: "Endpoint de Formspree (si está vacío se muestra el email)", type: string }
+      - name: analytics
+        label: Analítica
+        type: object
+        fields:
+          - { name: plausible_domain, label: "Dominio en Plausible (opcional)", type: string }
+      - name: navegacion
+        label: Menú de navegación
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Texto, type: string }
+          - { name: url, label: Enlace, type: string }
+      - name: footer
+        label: Pie de página
+        type: object
+        fields:
+          - { name: claim, label: Frase del pie, type: text }
+          - name: legales
+            label: Enlaces legales
+            type: object
+            list: true
+            fields:
+              - { name: label, label: Texto, type: string }
+              - { name: url, label: Enlace, type: string }
+      - name: cta_articulos
+        label: Llamada a la acción al final de los artículos
+        type: object
+        fields:
+          - { name: eyebrow, label: Antetítulo, type: string }
+          - { name: title, label: Título, type: string }
+          - { name: text, label: Texto, type: text }
+          - { name: button_label, label: Botón — texto, type: string }
+          - { name: button_url, label: Botón — enlace, type: string }
+          - { name: note, label: Nota, type: string }

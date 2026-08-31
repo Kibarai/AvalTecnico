@@ -1,0 +1,52 @@
+# ---------------------------------------------------------------------------
+# Ajustes globales del sitio — editable desde Pages CMS ("Ajustes del sitio")
+# ---------------------------------------------------------------------------
+
+marca:
+  nombre: "Carlos Jiménez"
+  servicio: "Aval Técnico"
+
+cta:
+  label: "Reservar diagnóstico"
+  url: "/contacto/"
+
+contacto:
+  email: "hola@avaltecnico.com"
+  telefono: ""
+  linkedin: "https://www.linkedin.com/in/carlos-jimenez/"
+  # Enlace a Calendly / Cal.com / TidyCal. Si lo dejas vacío no se muestra.
+  agenda_url: ""
+  # Endpoint de Formspree (https://formspree.io) para recibir el formulario por
+  # email. Si lo dejas vacío, el formulario se sustituye por un enlace de correo.
+  formulario_endpoint: ""
+
+analytics:
+  # Dominio en Plausible (opcional). Ej.: avaltecnico.com
+  plausible_domain: ""
+
+navegacion:
+  - label: "Servicios"
+    url: "/servicios/"
+  - label: "Sobre mí"
+    url: "/sobre-mi/"
+  - label: "Independencia"
+    url: "/independencia/"
+  - label: "Artículos"
+    url: "/blog/"
+
+footer:
+  claim: "Aval Técnico es el servicio con el que empresarios no técnicos saben, en todo momento, si su inversión en desarrollo va por buen camino."
+  legales:
+    - label: "Aviso legal"
+      url: "/aviso-legal/"
+    - label: "Privacidad"
+      url: "/privacidad/"
+
+# Bloque de llamada a la acción que aparece al final de cada artículo del blog
+cta_articulos:
+  eyebrow: "¿Te suena tu caso?"
+  title: "Vamos a mirar tu proyecto con calma"
+  text: "Una llamada de 30 minutos para entender en qué punto estás y si el diagnóstico te encaja. Sin compromiso y sin lenguaje técnico."
+  button_label: "Reservar diagnóstico"
+  button_url: "/contacto/"
+  note: "Respondo personalmente en menos de 24 h laborables."
