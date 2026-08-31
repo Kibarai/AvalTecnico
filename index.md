@@ -14,7 +14,7 @@ hero:
   cta2_label: Cómo funciona
   cta2_url: /servicios/
   note: Diagnóstico en 2–3 semanas, precio cerrado y con garantía.
-  foto: /assets/img/carlos_office.png
+  foto: /assets/img/carlos_office-1.png
   foto_alt: Carlos Jiménez, Aval Técnico
   sello: Asegurando que controlas tu inversión
 credenciales:
