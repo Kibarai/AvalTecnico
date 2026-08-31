@@ -142,7 +142,7 @@ independencia:
   cta_url: /independencia/
 sobre:
   eyebrow: Quién te avala
-  title: Carlos Jiménez
+  title: Carlos Jiménez Delgado
   foto_alt: Retrato de Carlos Jiménez
   parrafos:
     - texto: "He liderado tecnología en entornos donde un error no es un
