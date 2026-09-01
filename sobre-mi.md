@@ -1,16 +1,16 @@
 ---
-title: "Sobre mí"
-eyebrow: "Quién te avala"
-intro: "Mi nombre es Carlos Jiménez. Reconozco los errores que hunden un proyecto cuando todavía son baratos de corregir."
-foto: ""
-foto_alt: "Retrato de Carlos Jiménez"
+title: Sobre mí
+eyebrow: Quién te avala
+intro: Mi nombre es Carlos Jiménez. Reconozco los errores que hunden un proyecto
+  cuando todavía son baratos de corregir.
+foto: /assets/img/nUDOH.jpg
+foto_alt: Retrato de Carlos Jiménez
 cta_final:
-  eyebrow: "Hablemos"
-  title: "¿Quieres saber si puedo ayudarte?"
-  text: "Media hora de conversación y una respuesta honesta."
-  button_label: "Reservar diagnóstico"
-  button_url: "/contacto/"
-  note: ""
+  eyebrow: Hablemos
+  title: ¿Quieres saber si puedo ayudarte?
+  text: Media hora de conversación y una respuesta honesta.
+  button_label: Reservar diagnóstico
+  button_url: /contacto/
 ---
 {% include foto.html src=page.foto alt=page.foto_alt ratio="16-9" %}
 
