@@ -13,7 +13,7 @@ hero:
   cta2_label: "Cómo funciona"
   cta2_url: "/servicios/"
   note: "Diagnóstico en 2–3 semanas, precio cerrado y con garantía."
-  foto: "/assets/img/carlos_office-1.png"
+  foto: "/assets/img/carlos-jimenez-retrato.jpg"
   foto_alt: "Carlos Jiménez, Aval Técnico"
   sello: "Asegurando que controlas tu inversión"
 
@@ -70,7 +70,7 @@ servicios:
         - item: "Informe de riesgos económicos: sobrecostes, retrasos y decisiones de producto equivocadas."
         - item: "Hoja de ruta priorizada: qué construir primero, qué parar y qué vigilar."
         - item: "Asesoramiento sobre decisiones técnicas y su impacto en el negocio."
-      garantia: "sales de estas semanas con una hoja de ruta clara y accionable, o te devuelvo el importe."
+      garantia: "Te proporciono una hoja de ruta clara y accionable, o te devuelvo el importe."
       precio: "**3500 €** - Precio cerrado, sin sorpresas."
       cta_label: "Ver qué incluye"
       cta_url: "/servicios/#diagnostico"

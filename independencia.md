@@ -1,7 +1,7 @@
 ---
 title: "Independencia y conflicto de interés"
 eyebrow: "Política pública"
-intro: "Mi servicio es mi criterio. Por eso me he impuesto una regla inquebrantable e innegociable sin la cual no podriamos trabajar juntos."
+intro: "Mi servicio es mi criterio. Por eso me he impuesto una regla inquebrantable e innegociable sin la cual difícilmente podríamos trabajar juntos."
 description: "Política de independencia de Aval Técnico: por qué los desarrollos que superviso los ejecutan siempre otros y cuándo, excepcionalmente, puedo mencionar a un ejecutor."
 cta_final:
   eyebrow: "Hablemos"
@@ -23,7 +23,7 @@ En concreto:
 - Los proyectos que diagnostico o superviso los desarrolla siempre otro.
 - Mi retribución viene de ti, y solo de ti: rechazo cualquier comisión, retorno o *referral* de proveedores, agencias, freelances y herramientas que pueda recomendarte.
 - Mi opinión sobre tu proveedor o tu equipo actual vale lo mismo tanto si sigue contigo como si lo cambias.
-- Mientras esté dándote este servicio nunca te voy a recomendar, ni directa ni indirectamente, ningún proveedor, tenga o no relación conmigo.
+- Mientras dure este servicio me abstengo de recomendarte proveedores, de forma directa o indirecta, con independencia de mi relación con ellos.
 
 ## La única excepción
 
