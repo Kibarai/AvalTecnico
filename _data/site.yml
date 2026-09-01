@@ -35,7 +35,7 @@ navegacion:
     url: "/blog/"
 
 footer:
-  claim: "Aval Técnico es el servicio con el que empresarios no técnicos saben, en todo momento, si su inversión en desarrollo va por buen camino."
+  claim: "Aval Técnico es el servicio con el que los empresarios saben, en todo momento, si su inversión en desarrollo va por buen camino."
   legales:
     - label: "Aviso legal"
       url: "/aviso-legal/"

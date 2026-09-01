@@ -1,44 +1,45 @@
 ---
 title: "Independencia y conflicto de interés"
 eyebrow: "Política pública"
-intro: "No vendo desarrollo. Por eso puedes confiar en lo que te digo sobre quien te lo vende."
-description: "Política de no conflicto de interés de Aval Técnico: por qué no ejecuto los desarrollos que superviso y cuándo, excepcionalmente, puedo mencionar a un ejecutor."
+intro: "Mi servicio es mi criterio. Por eso me he impuesto una regla inquebrantable e innegociable sin la cual no podriamos trabajar juntos."
+description: "Política de independencia de Aval Técnico: por qué los desarrollos que superviso los ejecutan siempre otros y cuándo, excepcionalmente, puedo mencionar a un ejecutor."
 cta_final:
   eyebrow: "Hablemos"
-  title: "Una opinión que no tiene nada que ganar"
+  title: "Una opinión con un único interés: el tuyo"
   text: "Si esto es lo que te faltaba para decidir, hablemos 30 minutos."
   button_label: "Reservar diagnóstico"
   button_url: "/contacto/"
   note: ""
 ---
 
-El valor entero de Aval Técnico es la objetividad. Si sospecharas, aunque fuera un poco, que mi diagnóstico está orientado a generarme trabajo de desarrollo, este servicio no valdría nada. Por eso la separación no es una intención: es una regla escrita y pública.
+El valor entero de Aval Técnico es la objetividad. En cuanto sospecharas, aunque fuera un poco, que mi diagnóstico está orientado a satisfacer otros intereses, este servicio perdería todo su valor. Por eso la separación va más allá de una intención: es una regla escrita y pública.
 
 ## La regla
 
-**Aval Técnico y mi actividad de desarrollo son marcas y servicios totalmente separados.** No ejecuto — ni directamente ni a través de terceros — los desarrollos que superviso o audito.
+**Aval Técnico y cualquier otra actividad son marcas y servicios totalmente separados.** Los desarrollos que superviso o audito los ejecutan siempre otros, tanto de forma interna como a través de terceros.
 
 En concreto:
 
-- No desarrollo los proyectos que diagnostico o superviso.
-- No cobro comisión, retorno ni referral de ningún proveedor, agencia, freelance ni herramienta que pueda recomendarte.
-- Mi retribución viene siempre de ti, y solo de ti.
-- Mi opinión sobre tu proveedor actual no está condicionada por la posibilidad de sustituirle.
+- Los proyectos que diagnostico o superviso los desarrolla siempre otro.
+- Mi retribución viene de ti, y solo de ti: rechazo cualquier comisión, retorno o *referral* de proveedores, agencias, freelances y herramientas que pueda recomendarte.
+- Mi opinión sobre tu proveedor o tu equipo actual vale lo mismo tanto si sigue contigo como si lo cambias.
+- Mientras esté dándote este servicio nunca te voy a recomendar, ni directa ni indirectamente, ningún proveedor, tenga o no relación conmigo.
 
 ## La única excepción
 
-Existe un escenario, y solo uno, en el que puedo mencionarte una opción de ejecución. Se tienen que cumplir **las tres condiciones a la vez**:
+Existe un escenario, y solo uno, en el que puedo recomendarte una opción de ejecución. Se tienen que cumplir **las tres condiciones a la vez**:
 
-1. Me has contratado **solo el diagnóstico y la hoja de ruta** de un proyecto que **todavía no ha empezado** a desarrollarse.
-2. **No tienes equipo ni proveedor propio** para ejecutar esa hoja de ruta.
-3. **No me has contratado la supervisión continua** de ese proyecto.
+1. Me has contratado **solo el diagnóstico y la hoja de ruta** de un proyecto que **está aún por arrancar**.
+2. **La ejecución está por asignar**: tienes que buscar quién lleve a cabo esa hoja de ruta.
+3. **Tu encargo termina ahí**: la supervisión continua queda fuera.
 
-En ese escenario no hay conflicto posible: no estoy evaluando ni sustituyendo el trabajo de nadie, ni voy a supervisar la ejecución. Simplemente necesitas a alguien que ejecute un plan que yo ya no voy a vigilar, y te digo lo que sé.
+En ese escenario el conflicto es imposible: el trabajo que evalúo es el que está por empezar, la ejecución la vigilarás tú y mi encargo ya ha terminado. Simplemente necesitas a alguien que lleve a cabo un plan que queda fuera de mi supervisión.
 
-**En cualquier otro caso** — si tienes proveedor o equipo activo, o si tenemos contratada la supervisión continua — no te voy a recomendar ni mencionar ninguna opción de ejecución vinculada a mí, ni siquiera indirectamente. Si me lo preguntas directamente, mi respuesta será esta misma página.
+**En cualquier otro caso** — si tienes proveedor o equipo activo, o si tenemos contratada la supervisión continua — me abstengo de recomendarte o mencionarte cualquier opción de ejecución vinculada a mí o a otros, también de forma indirecta. Si me lo preguntas directamente, mi respuesta será esta misma página.
 
 ## Qué puedes exigirme
 
 - Que esta política figure por escrito en nuestro acuerdo.
 - Que te avise, por iniciativa propia, en cuanto detecte cualquier situación que pueda parecer un conflicto de interés.
 - Que renuncie al encargo antes que a la independencia.
+- El **reembolso total** de todo lo que me has abonado desde el principio de nuestra relación comercial si detectas que estoy rompiendo esta política.
