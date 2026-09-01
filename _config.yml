@@ -58,6 +58,7 @@ sass:
   style: compressed
 
 exclude:
+  - marca   # material de marca, fuera del repositorio (ver .gitignore)
   - Gemfile
   - Gemfile.lock
   - README.md

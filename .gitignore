@@ -9,3 +9,6 @@ node_modules/
 
 # Documento interno de posicionamiento: no se publica (el repositorio es público)
 posicionamiento-estrategia.md
+
+# Material de marca para redes (banners, logos): se queda solo en local
+marca/

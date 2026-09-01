@@ -25,6 +25,12 @@ En concreto:
 - Mi opinión sobre tu proveedor o tu equipo actual vale lo mismo tanto si sigue contigo como si lo cambias.
 - Mientras dure este servicio me abstengo de recomendarte proveedores, de forma directa o indirecta, con independencia de mi relación con ellos.
 
+## ¿Por qué tengo esta regla?
+
+Mi otro emprendimiento es una consultora de software. Creo que te estaría dando un servicio pésimo si participara en la selección de tus proveedores o de tu equipo, porque chocaría con mis propios intereses.
+
+Esto, como comprenderás, también me hace perder muchas oportunidades. Pero un principio solo lo es cuando cuesta dinero, y aquí tienes los míos.
+
 ## La única excepción
 
 Existe un escenario, y solo uno, en el que puedo recomendarte una opción de ejecución. Se tienen que cumplir **las tres condiciones a la vez**:
@@ -34,6 +40,8 @@ Existe un escenario, y solo uno, en el que puedo recomendarte una opción de eje
 3. **Tu encargo termina ahí**: la supervisión continua queda fuera.
 
 En ese escenario el conflicto es imposible: el trabajo que evalúo es el que está por empezar, la ejecución la vigilarás tú y mi encargo ya ha terminado. Simplemente necesitas a alguien que lleve a cabo un plan que queda fuera de mi supervisión.
+
+Y ahí la opción que puedo mencionarte es mi propia consultora. Te lo digo por adelantado, para que lo valores con esa información encima de la mesa.
 
 **En cualquier otro caso** — si tienes proveedor o equipo activo, o si tenemos contratada la supervisión continua — me abstengo de recomendarte o mencionarte cualquier opción de ejecución vinculada a mí o a otros, también de forma indirecta. Si me lo preguntas directamente, mi respuesta será esta misma página.
 
