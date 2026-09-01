@@ -29,7 +29,7 @@ credenciales:
 problema:
   eyebrow: "El punto de partida"
   title: "Estás invirtiendo en desarrollo a ciegas"
-  intro: "Cuando el criterio técnico está solo en quien construye, tu única información sobre plazos, calidad y decisiones viene de esa misma persona. Te hace falta alguien capaz de contrastarla."
+  intro: "Cuando el criterio técnico está solo en quien construye, tu única información sobre plazos, calidad y decisiones viene de esa misma fuente. Te hace falta alguien capaz de contrastarla."
   items:
     - title: "¿Los plazos que te dan son reales?"
       text: "Cada mes hay una explicación nueva para el retraso y todas suenan razonables. Distinguir un imprevisto legítimo de una mala planificación exige criterio técnico."
@@ -53,7 +53,7 @@ propuesta:
       text: "Superviso al equipo o proveedor: calidad, plazos reales frente a los prometidos, riesgos ocultos y decisiones que hipotecan el proyecto."
     - title: "Tú decides"
       text: "Te lo cuento en lenguaje de negocio, con el coste y el riesgo de cada opción, para que la decisión sea tuya y esté informada a tiempo."
-  promesa: "Que el proyecto salga perfecto depende de quien lo ejecuta. Lo que depende de mí, y eso sí te lo garantizo, es que sepas en todo momento cómo va tu inversión y puedas decidir mientras aún se puede corregir."
+  promesa: "Que el proyecto salga perfecto depende de quien lo ejecuta. Lo que yo te garantizo es que sepas en todo momento cómo va tu inversión y puedas decidir con un plan de acción mientras aún haya margen de maniobra."
 
 servicios:
   eyebrow: "Cómo trabajo"
@@ -78,12 +78,12 @@ servicios:
     - tag: "Continuidad"
       title: "Aval Técnico continuo"
       duracion: "Facturación mensual"
-      text: "Me quedo vigilando tu inversión mes a mes, hablo con tu equipo o proveedor en tu nombre y te traduzco lo que pasa a lenguaje de negocio."
+      text: "Vigilo tu inversión mes a mes, hablo con tu equipo o proveedor en tu nombre y te traduzco lo que pasa a lenguaje de negocio."
       incluye:
         - item: "Supervisión continua de entregas, calidad y plazos."
         - item: "Priorización continua del roadmap de producto."
         - item: "Interlocución directa con tu proveedor o equipo, en tu nombre."
-        - item: "Informe mensual ejecutivo para ti, sin jerga técnica."
+        - item: "Informe quincenal ejecutivo para ti, sin jerga técnica."
         - item: "Asesoramiento continuo sobre decisiones técnicas que impactan en el negocio."
       garantia: ""
       precio: "**Desde 3000 €** - Cuota mensual según alcance del proyecto."
@@ -106,14 +106,14 @@ proceso:
       text: "Decides tú: aplicar la hoja de ruta por tu cuenta o que yo continúe supervisando su ejecución."
 
 independencia:
-  eyebrow: "Por qué puedes fiarte"
-  title: "Solo vendo criterio. Por eso puedes confiar en lo que te digo."
+  eyebrow: "Por qué puedes confiar"
+  title: "Mi servicio es mi criterio. Por eso puedes confiar en lo que te digo."
   text: "El valor entero de este servicio es la objetividad. Mi opinión te sirve precisamente porque gano lo mismo tanto si mantienes a tu proveedor como si lo cambias."
   bullets:
     - item: "El desarrollo de los proyectos que superviso lo ejecutan siempre otros."
     - item: "Tú eres mi única fuente de ingresos en cada encargo."
     - item: "Mi único incentivo es que tu inversión llegue a buen puerto."
-    - item: "Mi otra actividad profesional queda fuera, por una política de independencia estricta, publicada y verificable."
+    - item: "Cualquier otra actividad profesional queda fuera, por una política de independencia estricta, publicada y verificable."
   cta_label: "Leer la política completa"
   cta_url: "/independencia/"
 
@@ -123,9 +123,9 @@ sobre:
   foto: ""
   foto_alt: "Retrato de Carlos Jiménez"
   parrafos:
-    - texto: "He liderado tecnología en entornos donde un error se paga en dinero, en regulación y en clientes. Aerolíneas, telecomunicaciones y seguros me enseñaron a mirar un proyecto y ver dónde va a romperse antes de que rompa."
+    - texto: "He liderado tecnología en entornos donde un error se paga en dinero, en regulación y en clientes. Mis 20 años de experiencia en tecnología me enseñaron a mirar un proyecto y ver dónde va a complicarse antes de que lo haga."
     - texto: "En todos esos años he visto el mismo patrón repetirse: empresas que invierten bien el dinero en desarrollo y empresas que lo descubren tarde. La diferencia casi siempre está en si alguien con criterio miraba a tiempo."
-    - texto: "Aval Técnico existe para que tú tengas a esa persona sin necesidad de contratar a un CTO a jornada completa."
+    - texto: "Aval Técnico existe para que tú tengas a esa persona sin necesidad de contratar a un CTO y un PO a jornada completa."
   hitos:
     - item: "Equipos y proveedores de desarrollo liderados en proyectos críticos."
     - item: "Presupuestos de desarrollo gestionados de principio a fin."
@@ -150,8 +150,8 @@ faq:
 
 cta_final:
   eyebrow: "Siguiente paso"
-  title: "¿Y si pudieras comprobar cómo va cada euro que inviertes?"
-  text: "Empecemos por una llamada de 30 minutos. Me cuentas en qué punto estás y te digo con franqueza si el diagnóstico te encaja."
+  title: "¿Y si pudieras comprobar dónde va cada euro que inviertes?"
+  text: "Empecemos por una llamada de 30 minutos. Me cuentas en qué punto estás y te digo con franqueza si te puedo ayudar."
   button_label: "Reservar diagnóstico"
   button_url: "/contacto/"
   secondary_label: "Ver servicios"

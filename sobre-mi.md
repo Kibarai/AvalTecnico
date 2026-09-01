@@ -1,7 +1,7 @@
 ---
 title: "Sobre mí"
 eyebrow: "Quién te avala"
-intro: "Mi nombre es Carlos Jiménez. He liderado tecnología en sectores donde equivocarse sale caro: aerolíneas, telecomunicaciones y seguros."
+intro: "Mi nombre es Carlos Jiménez. Reconozco los errores que hunden un proyecto cuando todavía son baratos de corregir."
 foto: ""
 foto_alt: "Retrato de Carlos Jiménez"
 cta_final:
@@ -16,7 +16,7 @@ cta_final:
 
 ## De dónde vengo
 
-Desde mis inicios he estado muy ligado a la parte técnica: tengo 20 años de experiencia como desarrollador y he visto situaciones de todo tipo. Proyectos en los que todo salía bien y era un placer trabajar, y proyectos en los que todo salía mal y se cubría con horas y sobrecoste. He aprendido que, en ambos casos, lo que más impacta es una buena planificación y un liderazgo efectivo y con criterio.
+Desde mis inicios he estado muy ligado a la parte técnica: tengo 20 años de experiencia trabajando como desarrollador y arquitecto de soluciones, y he visto situaciones de todo tipo. Proyectos en los que todo salía bien y era un placer trabajar, y proyectos en los que todo salía mal y se cubría con horas y sobrecoste. He aprendido que, en ambos casos, lo que más impacta es una buena planificación y un liderazgo efectivo y con criterio.
 
 He trabajado en muchos sectores, principalmente en seguros, aviación comercial y telecomunicaciones en proyectos de todo tipo y con complejidades diferentes.
 

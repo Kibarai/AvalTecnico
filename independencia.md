@@ -12,7 +12,7 @@ cta_final:
   note: ""
 ---
 
-El valor entero de Aval Técnico es la objetividad. En cuanto sospecharas, aunque fuera un poco, que mi diagnóstico está orientado a satisfacer otros intereses, este servicio perdería todo su valor. Por eso la separación va más allá de una intención: es una regla escrita y pública.
+Gran parte del valor de Aval Técnico es la objetividad. En cuanto sospecharas, aunque fuera un poco, que mi diagnóstico está orientado a satisfacer otros intereses, este servicio perdería su razón de ser. Por eso la separación va más allá de una intención: es una regla escrita y pública.
 
 ## La regla
 

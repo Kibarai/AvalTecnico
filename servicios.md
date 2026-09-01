@@ -9,13 +9,13 @@ cta_final:
   text: "Una llamada de 30 minutos y sales sabiendo con franqueza si puedo ayudarte."
   button_label: "Reservar diagnóstico"
   button_url: "/contacto/"
-  note: "Respondo personalmente en menos de 24 h laborables."
+  note: ""
 ---
 
 ## Diagnóstico técnico y de producto
 {: #diagnostico }
 
-**2–3 semanas · precio cerrado · con garantía**
+**2–3 semanas · precio cerrado · 3500 € con garantía**
 
 Es la puerta de entrada y, para muchos clientes, lo único que necesitan. En dos o tres semanas te entrego una radiografía completa de tu proyecto: si se está construyendo lo correcto, si se está construyendo bien y qué te va a costar si todo sigue igual.
 
@@ -39,7 +39,7 @@ Es la puerta de entrada y, para muchos clientes, lo único que necesitan. En dos
 ## Aval Técnico continuo
 {: #retainer }
 
-**Cuota mensual · solo después del diagnóstico**
+**Cuota mensual · solo después del diagnóstico · Desde 3000 € mensuales**
 
 El diagnóstico es una foto. Este servicio es la película: me quedo vigilando tu inversión mes a mes para que las desviaciones se detecten cuando aún son baratas de corregir.
 
@@ -48,7 +48,7 @@ El diagnóstico es una foto. Este servicio es la película: me quedo vigilando t
 - **Supervisión continua** del equipo o proveedor: revisión de entregas, control de calidad y de plazos.
 - **Priorización continua del roadmap**, según cómo evoluciona tu negocio, por delante de lo que sea más cómodo de construir.
 - **Interlocución directa** con tu proveedor o equipo, en tu nombre, poniendo yo el criterio técnico.
-- **Informe mensual ejecutivo** escrito para ti: qué se ha hecho, qué ha costado, qué riesgos hay abiertos y qué decisiones te tocan.
+- **Informe quincenal ejecutivo** escrito para ti: qué se ha hecho, qué ha costado, qué riesgos hay abiertos y qué decisiones te tocan.
 
 ### Para quién tiene sentido
 
@@ -58,6 +58,6 @@ Para proyectos vivos, con inversión mensual significativa y con un equipo inter
 
 ## Los límites del servicio
 
-- **Es supervisión.** Tu producto lo escribe tu equipo o tu proveedor; yo me ocupo de que lo haga bien. [Aquí está el porqué](/independencia/).
+- **Es supervisión.** Tu equipo o tu proveedor construyen; yo priorizo contigo el roadmap y reviso lo que entregan con criterio técnico, para que sepas en todo momento qué estás recibiendo y puedas decidir a tiempo. [Aquí está el porqué](/independencia/).
 - **Sirve para decidir con criterio.** El objetivo es que tu inversión funcione: a veces eso implica cambiar de proveedor y muchas otras, mantenerlo y ayudarle a trabajar mejor.
-- **Es un documento breve.** Puedes leerlo entero y usarlo el mismo día.
+- **Toda la documentación es breve y accionable.** Los informes, la hoja de ruta y el seguimiento están escritos para leerse enteros y usarse el mismo día.
