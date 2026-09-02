@@ -1,7 +1,7 @@
 ---
 title: "Hablemos de tu proyecto"
 eyebrow: "Contacto"
-intro: "Media hora de conversación, sin compromiso y en lenguaje de negocio. Sales de esa llamada sabiendo con franqueza si puedo aportarte algo."
+intro: "Media hora de conversación, sin compromiso y en lenguaje de negocio. Sales de esa llamada sabiendo si puedo aportarte algo."
 description: "Reserva una primera llamada con Carlos Jiménez para valorar el diagnóstico técnico y de producto de tu proyecto."
 formulario:
   title: "Cuéntame tu caso"

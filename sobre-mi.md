@@ -3,16 +3,16 @@ title: Sobre mí
 eyebrow: Quién te avala
 intro: Mi nombre es Carlos Jiménez. Reconozco los errores que hunden un proyecto
   cuando todavía son baratos de corregir.
-foto: /assets/img/nUDOH.jpg
-foto_alt: Retrato de Carlos Jiménez
+foto: /assets/img/carlos-jimenez-trabajando.jpg
+foto_alt: Carlos Jiménez durante una llamada de trabajo
 cta_final:
   eyebrow: Hablemos
   title: ¿Quieres saber si puedo ayudarte?
   text: Media hora de conversación y una respuesta honesta.
-  button_label: Reservar diagnóstico
+  button_label: ""
   button_url: /contacto/
 ---
-{% include foto.html src=page.foto alt=page.foto_alt ratio="16-9" %}
+{% include foto.html src=page.foto alt=page.foto_alt ratio="16-9" class="foto-16-9" %}
 
 ## De dónde vengo
 
@@ -39,4 +39,4 @@ Casi siempre es buena fe: simplemente falta alguien con criterio mirando a tiemp
 
 Soy natural de Jaén, me gusta jugar al pádel y montar en bici siempre que tengo tiempo libre. Me gusta el fútbol y, aunque llevo muchos años viviendo en Madrid, sigo fiel al Betis desde pequeño. También me gustan mucho los juegos retro y soy de los que tienen un mueble de recreativa en su casa donde de vez en cuando cae alguna partida al Street Fighter.
 
-Escribo sobre decisiones de tecnología en lenguaje de negocio. Puedes leer lo último en [artículos](/blog/) o seguirme en LinkedIn.
+Escribo sobre decisiones de tecnología en lenguaje de negocio. Puedes seguirme en [LinkedIn]({{ site.data.site.contacto.linkedin }}).

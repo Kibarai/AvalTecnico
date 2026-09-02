@@ -22,10 +22,6 @@ content:
       - name: description
         label: Descripción para buscadores
         type: text
-      - name: mostrar_articulos
-        label: Mostrar los últimos artículos en la home
-        type: boolean
-        default: true
 
       - name: hero
         label: Portada
@@ -35,14 +31,7 @@ content:
           - { name: title, label: Titular (primera parte), type: text }
           - { name: title_accent, label: Titular (parte destacada en cursiva), type: text }
           - { name: subtitle, label: Subtítulo, type: text }
-          - { name: cta_label, label: Botón principal — texto, type: string }
-          - { name: cta_url, label: Botón principal — enlace, type: string }
-          - { name: cta2_label, label: Botón secundario — texto, type: string }
-          - { name: cta2_url, label: Botón secundario — enlace, type: string }
-          - { name: note, label: Nota bajo los botones, type: string }
-          - { name: foto, label: "Fotografía vertical (3:4, mín. 900×1200 px)", type: image }
-          - { name: foto_alt, label: Texto alternativo de la foto, type: string }
-          - { name: sello, label: Texto del sello circular, type: string }
+          - { name: clave, label: "Frase clave (se destaca bajo el subtítulo)", type: text }
 
       - name: credenciales
         label: Barra de credenciales
@@ -286,24 +275,6 @@ content:
       - { name: body, label: Contenido de la columna izquierda, type: rich-text }
 
   # -------------------------------------------------------------------------
-  - name: articulos
-    label: Artículos
-    type: collection
-    path: _posts
-    filename: "{year}-{month}-{day}-{fields.title}.md"
-    view:
-      fields: [title, date]
-    fields:
-      - { name: title, label: Título, type: string }
-      - { name: date, label: Fecha de publicación, type: date }
-      - { name: description, label: Resumen (listados y buscadores), type: text }
-      - name: categories
-        label: Categorías
-        type: string
-        list: true
-      - { name: image, label: Imagen destacada (opcional), type: image }
-      - { name: body, label: Artículo, type: rich-text }
-
   # -------------------------------------------------------------------------
   - name: legales
     label: Páginas legales

@@ -2,17 +2,19 @@
 title: "Aviso legal"
 eyebrow: "Información legal"
 intro: "Datos identificativos y condiciones de uso de este sitio web."
+description: "Aviso legal de avaltecnico.com: titularidad, condiciones de uso y propiedad intelectual."
 ---
-
-> **Pendiente de completar.** Sustituye los campos entre corchetes por tus datos reales antes de publicar el sitio. Si operas como autónomo o sociedad en España, estos datos son obligatorios (Ley 34/2002, LSSI-CE).
 
 ## Titular del sitio
 
-- **Titular:** Carlos Jiménez
-- **NIF/CIF:** [pendiente]
-- **Domicilio:** [pendiente]
-- **Correo electrónico:** hola@avaltecnico.com
+- **Razón social:** KIBARAI TECH S.L.U.
+- **CIF:** B25981762
+- **Domicilio:** Paseo de Juan Antonio Vallejo-Nájera Botas 29A, 3.º A — 28005 Madrid
+- **Datos registrales:** inscrita en el Registro Mercantil de Madrid, Sección 8, Hoja M-874314, Inscripción 1.ª (7 de enero de 2026)
+- **Correo electrónico:** carlos.jimenez@avaltecnico.com
 - **Actividad:** servicios de asesoramiento y supervisión técnica de proyectos de desarrollo de software.
+
+«Aval Técnico» es una marca de KIBARAI TECH S.L.U. bajo la que se prestan los servicios descritos en este sitio.
 
 ## Condiciones de uso
 

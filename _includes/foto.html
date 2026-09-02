@@ -7,7 +7,7 @@
 {%- assign ph = "/assets/img/placeholder-" | append: ratio | append: ".svg" -%}
 {%- assign alt = include.alt | default: "Carlos Jiménez, Aval Técnico" -%}
 {%- if include.src and include.src != "" -%}
-<img src="{{ include.src | relative_url }}" alt="{{ alt | escape }}" loading="{{ include.loading | default: 'lazy' }}" decoding="async">
+<img{% if include.class %} class="{{ include.class }}"{% endif %} src="{{ include.src | relative_url }}" alt="{{ alt | escape }}" loading="{{ include.loading | default: 'lazy' }}" decoding="async">
 {%- else -%}
 <img src="{{ ph | relative_url }}" alt="Espacio reservado para una fotografía de Carlos Jiménez" loading="{{ include.loading | default: 'lazy' }}" decoding="async">
 {%- endif -%}

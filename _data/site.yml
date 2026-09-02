@@ -2,7 +2,7 @@ marca:
   nombre: Carlos Jiménez
   servicio: Aval Técnico
 cta:
-  label: Reservar diagnóstico
+  label: ¿Hablamos?
   url: /contacto/
 contacto:
   email: carlos.jimenez@avaltecnico.com
@@ -15,8 +15,6 @@ navegacion:
     url: /sobre-mi/
   - label: Independencia
     url: /independencia/
-  - label: Artículos
-    url: /blog/
 footer:
   claim: Aval Técnico es el servicio con el que los empresarios saben, en todo
     momento, si su inversión en desarrollo va por buen camino.
@@ -25,10 +23,3 @@ footer:
       url: /aviso-legal/
     - label: Privacidad
       url: /privacidad/
-cta_articulos:
-  eyebrow: ¿Te suena tu caso?
-  title: Vamos a mirar tu proyecto con calma
-  text: Una llamada de 30 minutos para entender en qué punto estás y si el
-    diagnóstico te encaja. Sin compromiso y sin lenguaje técnico.
-  button_label: Reservar diagnóstico
-  button_url: /contacto/

@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
   <rect width="1200" height="630" fill="#0b0f14"/>
-  <circle cx="1030" cy="120" r="240" fill="#5b4bff" fill-opacity=".14"/>
-  <g fill="none" transform="translate(96,58)">
+  <circle cx="1060" cy="90" r="250" fill="#5b4bff" fill-opacity=".13"/>
+
+  <g fill="none" transform="translate(96,54)">
     <rect x="1.5" y="1.5" width="45" height="45" rx="13" stroke="#8b7dff" stroke-width="3"/>
     <path d="m14 25 7 7.3 14-14.6" stroke="#3fd39b" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
-  <text x="164" y="82" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="27" fill="#e6edf3">Carlos Jiménez</text>
-  <text x="164" y="108" font-family="Menlo, monospace" font-size="15" letter-spacing="2" fill="#8b98a5">AVAL TÉCNICO</text>
-  <text x="96" y="296" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="54" fill="#e6edf3">Para que sepas cómo va tu proyecto,</text>
-  <text x="96" y="366" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="54" fill="#e6edf3">no solo cuando ya es tarde</text>
-  <text x="96" y="436" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="54" fill="#8b7dff">para arreglarlo.</text>
-  <text x="96" y="528" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#8b98a5">Criterio técnico y visión de negocio para empresarios no técnicos</text>
-  <text x="96" y="570" font-family="Menlo, monospace" font-size="21" fill="#3fd39b">avaltecnico.com</text>
+  <text x="164" y="78" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="27" fill="#e6edf3">Carlos Jiménez</text>
+  <text x="164" y="104" font-family="Menlo, monospace" font-size="15" letter-spacing="2" fill="#8b98a5">AVAL TÉCNICO</text>
+
+  <text x="600" y="250" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="58" fill="#e6edf3">Ningún desarrollo acaba costando</text>
+  <text x="600" y="328" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="600" font-size="58" fill="#8b7dff">lo que parecía que iba a costar.</text>
+  <text x="600" y="420" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#c2ccd6">Y la causa casi nunca es una estimación errónea.</text>
 </svg>

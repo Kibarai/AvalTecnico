@@ -1,22 +1,12 @@
 ---
-title: Aval Técnico
-description: Ayudo a empresas a decidir qué construir y a comprobar que su
-  equipo o proveedor de desarrollo lo está construyendo bien.
-mostrar_articulos: true
+title: Ningún desarrollo acaba costando lo que parecía que iba a costar
+description: Y la causa casi nunca es una estimación errónea. El sobrecoste se
+  acumula en decisiones pequeñas que nadie ve pasar.
 hero:
   eyebrow: Aval Técnico · Carlos Jiménez
-  title: Ponte al día de tu proyecto
-  title_accent: y llega a tiempo de corregirlo.
-  subtitle: Ayudo a empresas a decidir qué construir y a comprobar que su equipo o
-    proveedor de desarrollo lo está construyendo bien.
-  cta_label: Reservar diagnóstico
-  cta_url: /contacto/
-  cta2_label: Cómo funciona
-  cta2_url: /servicios/
-  note: Diagnóstico en 2–3 semanas, precio cerrado y con garantía.
-  foto: /assets/img/carlos-jimenez-retrato.jpg
-  foto_alt: Carlos Jiménez, Aval Técnico
-  sello: Asegurando que controlas tu inversión
+  title: Ningún desarrollo acaba costando
+  title_accent: lo que parecía que iba a costar.
+  subtitle: Y la causa casi nunca es una estimación errónea.
 credenciales:
   label: Experiencia liderando tecnología en
   items:
@@ -27,14 +17,15 @@ credenciales:
     - nombre: Entornos de alto riesgo y presupuesto crítico
 problema:
   eyebrow: El punto de partida
-  title: Estás invirtiendo en desarrollo a ciegas
-  intro: Cuando el criterio técnico está solo en quien construye, tu única
-    información sobre plazos, calidad y decisiones viene de esa misma fuente. Te
-    hace falta alguien capaz de contrastarla.
+  title: Entre el plan y la entrega pasan mil cosas
+  intro: Las prioridades del negocio cambian, aparecen imprevistos y hay que
+    decidir sobre la marcha. Cada una de esas decisiones tiene una consecuencia
+    técnica y otra económica, y casi siempre se toma con solo la mitad de la
+    información delante.
   items:
     - title: ¿Los plazos que te dan son reales?
       text: Cada mes hay una explicación nueva para el retraso y todas suenan
-        razonables. Distinguir un imprevisto legítimo de una mala planificación
+        razonables. Distinguir un imprevisto legítimo de un problema de fondo
         exige criterio técnico.
     - title: ¿Se está construyendo lo correcto?
       text: El equipo avanza, pero está por comprobar si lo que se construye es lo que
@@ -42,19 +33,19 @@ problema:
     - title: ¿Qué se acumula por dentro?
       text: Deuda técnica, dependencias críticas de una sola persona, decisiones que
         hoy pasan desapercibidas y en seis meses cuestan el doble de arreglar.
-    - title: ¿Con quién contrastas lo que te cuentan?
-      text: "Hoy preguntas al equipo que ejecuta si el trabajo del equipo que ejecuta
-        está bien hecho. Te hace falta una opinión con un único interés: el
-        tuyo."
-  quote: La mayoría de los responsables de tecnología descubren que iban por mal
-    camino cuando ya han gastado el presupuesto.
+    - title: ¿Quién valida el trabajo del equipo?
+      text: "Tu equipo revisa su propio trabajo, que es lo único que está en su mano.
+        Una mirada externa les aporta lo que desde dentro es imposible tener:
+        perspectiva."
+  quote: La mayoría de los responsables de tecnología descubren desvíos cuando ya
+    han gastado el presupuesto.
   quote_source: Y llegar antes de ese punto es, exactamente, mi trabajo.
 propuesta:
   eyebrow: Qué es el Aval Técnico
   title: Criterio técnico y visión de negocio, de tu lado de la mesa
-  intro: Superviso tu proyecto en lugar de desarrollarlo. Entro como la persona
-    técnica de confianza que necesitas, para decidir contigo qué merece la pena
-    construir y comprobar que se está ejecutando bien.
+  intro: Entro como la persona técnica de confianza que necesitas, para decidir
+    contigo qué merece la pena construir y comprobar que se está ejecutando
+    bien.
   pilares:
     - title: Qué construir
       text: "Reviso el roadmap con criterio de negocio: qué aporta retorno primero,
@@ -70,7 +61,7 @@ propuesta:
     decidir con un plan de acción mientras aún haya margen de maniobra.
 servicios:
   eyebrow: Cómo trabajo
-  title: Dos formas de entrar
+  title: Dos servicios, en este orden
   intro: Siempre se empieza por el diagnóstico. La supervisión continua solo tiene
     sentido después, cuando ya sabemos lo que hay.
   items:
@@ -97,7 +88,7 @@ servicios:
     - tag: Continuidad
       title: Aval Técnico continuo
       duracion: Facturación mensual
-      text: Vigilo tu inversión mes a mes, hablo con tu equipo o proveedor en tu
+      text: Vigilo tu inversión de forma continua, hablo con tu equipo o proveedor en tu
         nombre y te traduzco lo que pasa a lenguaje de negocio.
       incluye:
         - item: Supervisión continua de entregas, calidad y plazos.
@@ -117,7 +108,7 @@ proceso:
   pasos:
     - title: Llamada inicial
       text: 30 minutos para entender tu proyecto, tu equipo y qué te preocupa. Sales
-        de la llamada con una respuesta franca sobre si puedo ayudarte.
+        de la llamada sabiendo si puedo ayudarte y cómo.
     - title: Inmersión
       text: Reviso backlog, entregas, código, plazos y hablo con tu equipo o
         proveedor. Sin interrumpir su trabajo.
@@ -144,7 +135,7 @@ independencia:
 sobre:
   eyebrow: Quién te avala
   title: Carlos Jiménez Delgado
-  foto: /assets/img/carlos_phone.png
+  foto: /assets/img/carlos-jimenez-retrato.jpg
   foto_alt: Retrato de Carlos Jiménez
   parrafos:
     - texto: He liderado tecnología en entornos donde un error se paga en dinero, en
@@ -193,8 +184,8 @@ cta_final:
   eyebrow: Siguiente paso
   title: ¿Y si pudieras comprobar dónde va cada euro que inviertes?
   text: Empecemos por una llamada de 30 minutos. Me cuentas en qué punto estás y
-    te digo con franqueza si te puedo ayudar.
-  button_label: Reservar diagnóstico
+    salimos de ahí sabiendo si tiene sentido seguir.
+  button_label: ""
   button_url: /contacto/
   secondary_label: Ver servicios
   secondary_url: /servicios/

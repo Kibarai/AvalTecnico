@@ -7,8 +7,8 @@
 title: "Aval Técnico"
 tagline: "Carlos Jiménez"
 description: >-
-  Ayudo a empresarios no técnicos a decidir qué construir y a comprobar que su
-  equipo o proveedor de desarrollo lo está construyendo bien.
+  Te ayudo a priorizar qué construir y a comprobar que tu equipo o proveedor de
+  desarrollo lo está construyendo bien.
 url: "https://avaltecnico.com"
 baseurl: ""
 lang: es
@@ -16,23 +16,13 @@ timezone: Europe/Madrid
 
 author:
   name: "Carlos Jiménez"
-  email: "hola@avaltecnico.com"
+  email: "carlos.jimenez@avaltecnico.com"
 
 # La imagen para compartir en redes (1200x630) se asigna a todas las páginas
 # desde "defaults" (abajo): /assets/img/og-default.png
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
-
-feed:
-  path: /feed.xml
-
-paginate: 6
-paginate_path: "/blog/page:num/"
-
-permalink: /blog/:title/
 
 defaults:
   - scope: { path: "" }
@@ -51,8 +41,6 @@ defaults:
     values: { permalink: "/aviso-legal/", sitemap: false }
   - scope: { path: "legal/privacidad.md" }
     values: { permalink: "/privacidad/", sitemap: false }
-  - scope: { path: "", type: "posts" }
-    values: { layout: "post", author: "Carlos Jiménez" }
 
 sass:
   style: compressed

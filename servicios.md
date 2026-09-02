@@ -2,12 +2,12 @@
 title: "Servicios"
 eyebrow: "Aval Técnico"
 intro: "Siempre se empieza por el diagnóstico. La supervisión continua solo se ofrece después, cuando ya sabemos con qué estamos tratando."
-description: "Diagnóstico técnico y de producto (2–3 semanas, precio cerrado y con garantía) y Aval Técnico continuo: supervisión mensual de tu equipo o proveedor de desarrollo."
+description: "Diagnóstico técnico y de producto (2–3 semanas, precio cerrado y con garantía) y Aval Técnico continuo: supervisión continua de tu equipo o proveedor de desarrollo, con informe quincenal."
 cta_final:
   eyebrow: "Siguiente paso"
   title: "Empecemos por el diagnóstico"
-  text: "Una llamada de 30 minutos y sales sabiendo con franqueza si puedo ayudarte."
-  button_label: "Reservar diagnóstico"
+  text: "Una llamada de 30 minutos y sales sabiendo si puedo ayudarte."
+  button_label: ""
   button_url: "/contacto/"
   note: ""
 ---
@@ -41,7 +41,7 @@ Es la puerta de entrada y, para muchos clientes, lo único que necesitan. En dos
 
 **Cuota mensual · solo después del diagnóstico · Desde 3000 € mensuales**
 
-El diagnóstico es una foto. Este servicio es la película: me quedo vigilando tu inversión mes a mes para que las desviaciones se detecten cuando aún son baratas de corregir.
+El diagnóstico es una foto. Este servicio es la película: me quedo vigilando tu inversión de forma continua para que las desviaciones se detecten cuando aún son baratas de corregir.
 
 ### Qué incluye
 

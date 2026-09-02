@@ -4,40 +4,15 @@ layout: default
 
 {%- assign h = page.hero %}
 <section class="hero">
-  <div class="container hero__grid">
-    <div>
-      <p class="eyebrow">{{ h.eyebrow }}</p>
-      <h1>{{ h.title }}{% if h.title_accent and h.title_accent != "" %} <span class="hero__claim">{{ h.title_accent }}</span>{% endif %}</h1>
-      <p class="lede">{{ h.subtitle }}</p>
-      <div class="btn-row hero__actions">
-        <a class="btn btn--primary" href="{{ h.cta_url | default: site.data.site.cta.url | relative_url }}">{{ h.cta_label | default: site.data.site.cta.label }}</a>
-        {%- if h.cta2_label and h.cta2_label != "" %}
-        <a class="btn btn--ghost" href="{{ h.cta2_url | relative_url }}">{{ h.cta2_label }}</a>
-        {%- endif %}
-      </div>
-      {%- if h.note and h.note != "" %}<p class="hero__note">{{ h.note }}</p>{% endif %}
-    </div>
-    <div class="portrait">
-      {% include foto.html src=h.foto alt=h.foto_alt ratio="3-4" loading="eager" %}
-      {%- if h.sello and h.sello != "" %}
-      <span class="portrait__seal" aria-hidden="true">{{ h.sello }}</span>
-      {%- endif %}
-    </div>
+  <div class="container hero__inner">
+    <p class="eyebrow">{{ h.eyebrow }}</p>
+    <h1 class="hero__title">{{ h.title }}{% if h.title_accent and h.title_accent != "" %} <span class="hero__claim">{{ h.title_accent }}</span>{% endif %}</h1>
+    <p class="lede hero__lede">{{ h.subtitle }}</p>
+    {%- if h.clave and h.clave != "" %}
+    <p class="hero__clave">{{ h.clave }}</p>
+    {%- endif %}
   </div>
 </section>
-
-{%- if page.credenciales.items and page.credenciales.items.size > 0 %}
-<section class="credentials">
-  <div class="container credentials__inner">
-    <span class="credentials__label">{{ page.credenciales.label }}</span>
-    <ul class="credentials__list">
-      {%- for item in page.credenciales.items %}
-      <li>{{ item.nombre }}</li>
-      {%- endfor %}
-    </ul>
-  </div>
-</section>
-{%- endif %}
 
 {%- assign p = page.problema %}
 <section class="section">
@@ -186,6 +161,16 @@ layout: default
         {%- endfor %}
       </ul>
       {%- endif %}
+      {%- if page.credenciales.items and page.credenciales.items.size > 0 %}
+      <div class="credentials-inline">
+        <p class="credentials__label">{{ page.credenciales.label }}</p>
+        <ul class="credentials__list">
+          {%- for item in page.credenciales.items %}
+          <li>{{ item.nombre }}</li>
+          {%- endfor %}
+        </ul>
+      </div>
+      {%- endif %}
       {%- if so.cta_label and so.cta_label != "" %}
       <p class="mt-2"><a class="link-arrow" href="{{ so.cta_url | relative_url }}">{{ so.cta_label }}</a></p>
       {%- endif %}
@@ -209,28 +194,6 @@ layout: default
       </details>
       {%- endfor %}
     </div>
-  </div>
-</section>
-{%- endif %}
-
-{%- assign posts = site.posts | slice: 0, 3 %}
-{%- if posts.size > 0 and page.mostrar_articulos %}
-<section class="section">
-  <div class="container">
-    <div class="section-head">
-      <p class="eyebrow">Ideas</p>
-      <h2>Últimos artículos</h2>
-    </div>
-    <ul class="post-list narrow" style="margin-inline:0">
-      {%- for post in posts %}
-      <li class="post-item">
-        <p class="post-meta">{% include fecha.html date=post.date %}</p>
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p class="muted">{{ post.description | default: post.excerpt | strip_html | truncate: 160 }}</p>
-      </li>
-      {%- endfor %}
-    </ul>
-    <p class="mt-2"><a class="link-arrow" href="{{ '/blog/' | relative_url }}">Ver todos los artículos</a></p>
   </div>
 </section>
 {%- endif %}

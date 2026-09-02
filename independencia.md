@@ -7,7 +7,7 @@ cta_final:
   eyebrow: "Hablemos"
   title: "Una opinión con un único interés: el tuyo"
   text: "Si esto es lo que te faltaba para decidir, hablemos 30 minutos."
-  button_label: "Reservar diagnóstico"
+  button_label: ""
   button_url: "/contacto/"
   note: ""
 ---
