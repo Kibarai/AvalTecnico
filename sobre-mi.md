@@ -3,13 +3,12 @@ title: Sobre mí
 eyebrow: Quién te avala
 intro: Mi nombre es Carlos Jiménez. Reconozco los errores que hunden un proyecto
   cuando todavía son baratos de corregir.
-foto: /assets/img/carlos-jimenez-trabajando.jpg
+foto: /assets/img/i3610512858.webp
 foto_alt: Carlos Jiménez durante una llamada de trabajo
 cta_final:
   eyebrow: Hablemos
   title: ¿Quieres saber si puedo ayudarte?
   text: Media hora de conversación y una respuesta honesta.
-  button_label: ""
   button_url: /contacto/
 ---
 {% include foto.html src=page.foto alt=page.foto_alt ratio="16-9" class="foto-16-9" %}
