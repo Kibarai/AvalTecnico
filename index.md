@@ -88,8 +88,8 @@ servicios:
     - tag: Continuidad
       title: Aval Técnico continuo
       duracion: Facturación mensual
-      text: Vigilo tu inversión de forma continua, hablo con tu equipo o proveedor en tu
-        nombre y te traduzco lo que pasa a lenguaje de negocio.
+      text: Vigilo tu inversión de forma continua, hablo con tu equipo o proveedor en
+        tu nombre y te traduzco lo que pasa a lenguaje de negocio.
       incluye:
         - item: Supervisión continua de entregas, calidad y plazos.
         - item: Priorización continua del roadmap de producto.
@@ -158,11 +158,12 @@ faq:
   eyebrow: Dudas habituales
   title: Lo que suelen preguntarme antes de empezar
   items:
-    - pregunta: ¿En qué se diferencia de un CTO externo o fraccional?
-      respuesta: "Se parece, pero el encargo es otro. Un CTO externo suele acabar
-        dirigiendo la ejecución y contratando gente. Mi encargo es representarte
-        a ti frente a quien ejecuta: decidir contigo qué construir y comprobar
-        que se está haciendo bien, manteniendo a cada uno en su silla."
+    - pregunta: ¿En qué se diferencia de un product owner externo o fraccional?
+      respuesta: Se parece, pero yo ademas doy apoyo a la parte técnica. Un product
+        owner externo suele definir las prioridades del producto basandose en
+        las necesidades de negocio, yo ademas guio la arquitectura, audito la
+        solución y levanto la mano si veo que algo se podria estar haciendo
+        mejor a nivel interno.
     - pregunta: ¿Vas a sustituir a mi equipo o a mi proveedor?
       respuesta: "Lo habitual es justo lo contrario: el equipo rinde mejor cuando las
         prioridades están claras y alguien traduce el negocio a criterios
@@ -185,7 +186,6 @@ cta_final:
   title: ¿Y si pudieras comprobar dónde va cada euro que inviertes?
   text: Empecemos por una llamada de 30 minutos. Me cuentas en qué punto estás y
     salimos de ahí sabiendo si tiene sentido seguir.
-  button_label: ""
   button_url: /contacto/
   secondary_label: Ver servicios
   secondary_url: /servicios/
