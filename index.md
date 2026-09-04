@@ -147,7 +147,7 @@ sobre:
         tarde. La diferencia casi siempre está en si alguien con criterio miraba
         a tiempo."
     - texto: Aval Técnico existe para que tú tengas a esa persona sin necesidad de
-        contratar a un CTO y un PO a jornada completa.
+        contratar a un product owner a jornada completa.
   hitos:
     - item: Equipos y proveedores de desarrollo liderados en proyectos críticos.
     - item: Presupuestos de desarrollo gestionados de principio a fin.
